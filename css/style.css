@@ -347,7 +347,10 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2; }
-
+.skills__title {
+  text-align: center;
+  font-size: 40px;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -8726,7 +8729,9 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 80px 25px; }
+  padding: 80px 25px; 
+  width: 100%;
+}
   @media (max-width: 991.98px) {
     .services {
       padding: 10px 0; } }
@@ -8748,15 +8753,15 @@ h1, h2, h3, h4, h5,
       .services.active .icon span {
         color: #fff; }
     .services.active-2 {
-      background: #fdcb6e;
+      background: #fff;
       color: #000000; }
       .services.active-2 .icon span {
         color: #fff; } }
-  .services:hover, .services:focus {
+  /* .services:hover, .services:focus {
     background: #fdcb6e;
     color: #000000; }
     .services:hover .icon span, .services:focus .icon span {
-      color: #fff; }
+      color: #fff; } */
 
 .aside-stretch {
   background: #fedda0; }
