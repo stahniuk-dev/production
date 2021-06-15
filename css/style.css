@@ -1600,6 +1600,9 @@ pre {
     background-color: rgba(255, 255, 255, 0.075); }
 
 @media (max-width: 575.98px) {
+  .w-60 {
+    width: 100%;
+  }
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1609,6 +1612,9 @@ pre {
       border: 0; } }
 
 @media (max-width: 767.98px) {
+  .w-60 {
+    width: 100%;
+  }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -6551,6 +6557,8 @@ button.bg-dark:focus {
 
 .w-50 {
   width: 50% !important; }
+.w-60 {
+  width: 60% !important; }
 
 .w-75 {
   width: 75% !important; }
@@ -6948,6 +6956,9 @@ button.bg-dark:focus {
   margin-left: auto !important; }
 
 @media (min-width: 576px) {
+  .w-60 {
+    width: 100%;
+  }
   .m-sm-0 {
     margin: 0 !important; }
   .mt-sm-0,
@@ -7202,6 +7213,9 @@ button.bg-dark:focus {
     margin-left: auto !important; } }
 
 @media (min-width: 768px) {
+  .w-60 {
+    width: 100%;
+  }
   .m-md-0 {
     margin: 0 !important; }
   .mt-md-0,
@@ -7456,6 +7470,9 @@ button.bg-dark:focus {
     margin-left: auto !important; } }
 
 @media (min-width: 992px) {
+  .w-60 {
+    width: 100%;
+  }
   .m-lg-0 {
     margin: 0 !important; }
   .mt-lg-0,
@@ -9216,7 +9233,8 @@ textarea.form-control {
         position: relative;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
-        transform: translateY(0); }
+        transform: translateY(0);}
+
 
 .testimony-section {
   position: relative;
@@ -9226,7 +9244,7 @@ textarea.form-control {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center; }
+    background-position: center center; }
   .testimony-section .overlay {
     position: absolute;
     top: 0;
